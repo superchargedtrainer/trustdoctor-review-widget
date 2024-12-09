@@ -1,4 +1,10 @@
-<script> document.addEventListener("DOMContentLoaded", function () {
+<script> 
+const cssUrl = "https://superchargedtrainer.github.io/trustdoctor-review-widget/widget.css";
+const link = document.createElement("link");
+link.rel = "stylesheet";
+link.href = cssUrl;
+document.head.appendChild(link);
+document.addEventListener("DOMContentLoaded", function () {
     const widgets = document.querySelectorAll('[id^="trustdoctor-widget-"]');
 
     widgets.forEach(widget => {
