@@ -1,0 +1,23 @@
+.trustdoctor-rating .stars {
+    color: #FFD700; /* Gold for stars */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.trustdoctor-rating .rating-text {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 20px;
+}
+.trustdoctor-rating {
+    font-family: Arial, sans-serif;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    width: fit-content;
+    margin: auto;
+}
+.trustdoctor-error {
+    color: red;
+    font-size: 1em;
+}
